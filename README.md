@@ -1,309 +1,133 @@
-body{
-	background: url(why-kei-8e2gal_GIE8-unsplash.jpg); 
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 100vh;
-	font-size: 16px;
-	font-family: "Roboto", sans-serif;
-	color: black;
-	margin:0;
-	padding: 0;
-	box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale 1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<title>Ulov.</title>
+	<link rel="stylesheet" type="text/css" href="portfolio-website.css">
+	<script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+</head>
+<body>
+<header>
+	<div id="nav-logo" style="font-weight: 600">
+		<a href="#">
+			Ulov.
+		</a>
+	</div>
+	<section class="nav-links">
+		<ul>
+			<li>
+				<a href="#">XAVFSIZLIK</a>
+			</li>
+			<li>
+				<a href="#">YANGI YO'NALISH QO'SHISH</a>
+			</li>
+			<li>
+				<a href="#">RO'YHATDAN O'TISH</a>
+			</li>
+		</ul>
+	</section>
+</header>
 
-/**************N A V B A R****************/
+<!--LANDING-PAGE-->
 
-*{
-	box-sizing: border-box;
-	margin:0;
-	padding: 0;
-	background-color: #white; 
-}
+<section id="landing-container">
+	<div class="container" style="height: 80vh;display: flex;">
+			<div class="column-50" id="def-ulov" style="color: white; padding: 30px ; ">
+				<div  id="slogan">
+					<h1>
+						Haqiqiy sayohatni his eting.
+					</h1>
+				</div>
+				<h3 style="margin-top: 20px; width: 70%; ">
+					Shahardan shaharga safarlar har doim mashaqqatli bo'lgan. Mashinani buyurtma berishdan tortib safaringizni o'zi ko'pgina qiyinchilik to'g'diradi. O'rtacha 2 soat ketadigan safaringiz keraksiz 4 yoki 5 soatga cho'zilib ketadi. Endi unday emas! <span style="font-family: Century Gothic">Ulov.</span> platformasida shahardan shaharga safarlaringiz uchun joy buyurtma bering va farqini o'zinigiz ko'ring.
+				</h3>
+			</div>
+			<div class="column-50"  style=" padding: 20px; align-items: center;" >
+				<section id="inner-column" style="align-items: center;">
+				<section>
+					<h1 style="text-align: center; font-size: 34px; margin-bottom: 20px;">Buyurtma berish</h1>
+					<div class="input-button">
+					<div class="question-text" style="margin-bottom: 5px;">Qaysi shahardan safar qilmoqchisiz:</div>
+					<input placeholder=" Qayerdan" type="text" name="search">
+					</div>
+					<div class="input-button" style="margin-bottom: 10px; margin-top: 20px;">
+					<div class="question-text">Qaysi shaharga bormoqchisiz:
+					<input placeholder=" Qayerga" type="text" name="search">
+					</div>
+					</div>
+				</section>
+				<section id="select-section" style="margin-top: 20px;">
+					<div>
+					<div class="question-text"style="margin-bottom: 10px">Safar qachon bo'lib o'tadi:</div>
+					<select>
+						<option class="option-text">Bugun</option>
+						<option class="option-text">Ertaga</option>
+					</select>
+					</div>
+					<div>
+					<div class="question-text" style="margin-bottom: 10px;margin-top: 20px;">Yo'lovchilar soni:</div>
+					<select>
+						<option class="option-text">1</option>
+						<option class="option-text">2</option>
+						<option class="option-text">3</option>
+						<option class="option-text">4</option>
+					</select>
+					</div>
+						<div  id="qidirish" style="text-align: center;" >
+	  					<button style="text-align: center; margin-left: 100px;" type="submit" class="btn btn-primary option-menus"> 
+	  					<a href="#" style="text-decoration: none; ">
+	  						QIDIRISH
+	  					</a></button>
+	  					</div>
+				</section>
+				</section>
+			</div>
 
+	</div>
+</section>
 
- li,a,button{
-	color: white;
-}
+<!-- DRIVER-PAGE -->
 
-header{
-	width: 1300px;
-	margin: 0 auto;
-	margin-top: 20px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 10px 10px;
-	background-color: rgba(255,255,255,0);
-	}
+<section style="background:white;width: 100%;">
+	<div class="container" style="height: 100vh;display: flex; margin-top: 40px; ">
+		<div class="column-50" style="padding: 40px;">
+			<div id="driver-header"> 
+			<div class="row" >	Ulovingiz bormi? 
+			<div class="row"  >	Unda <span style="font-family: Century Gothic"> Ulov.</span > bilan pul ishlab toping!</div>
+			</div>
+			<div id="driver-slogan" style="width: 70%;" >
+				Har kuni mijoz ohtarib charchadingizmi? Har kuni avtobekatda kutib turishdanchi? Ayniqsa yozning jazirama va 	qishning sovuq kunlarida! Tanish holatmi? Unda <span style="font-family: Century Gothic"> Ulov.</span > ilovasini hoziroq yuklab oling va bu holatlarni esdan chiqaring!
+			</div>
+			<div>
+				<button id="download-button" style="cursor: pointer;">Ilovani yuklab olish</button>
+			</div>
+			</div>
+		</div>
+			
 
-#nav-logo{
-	color: white;
-	margin-left: 40px;
-	padding: 5px; 
-	cursor: pointer;
-	font-size: 40px;
-	font-family: "Century Gothic";
+		<div class="column-50" style="background:url(marginalia-car-rental.png);background-repeat: no-repeat; margin-top: 50px;">
+		</div>
+	</div>
 
-}
-
-#nav-logo a{
-	color: white;
-	transition: all 0.3s ease 0s;
-	text-decoration: none;
-}
-
-#nav-logo a:hover{
-	color: rgb(20,20,20);
-}
-
-.nav-links{
-	padding-right: 20px;
-	list-style: none;
-	margin-left: auto;
-	font-weight: 300;
-	text-decoration: none;
-
-}
-
-.nav-links li{
-	
-	padding-left: 20px;
-	font-size: 14px;
-	display: inline-block;
-	font-weight: 600;
-}
-
-.nav-links  li  a {
-	text-decoration: none;
-	color: white;
-	transition: all 0.3s ease 0s;
-	
-}
-
-.nav-links li  a:hover{
-	transition: all 0.3s ease 0s;
-	text-decoration: underline;
-	
-}
-
-/************LANDING-PAGE*************/
-
-.container{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-}
-
-.row{
-	padding: 0;
-	margin:0; 
-	width: 100%;
-	
-}
-.column{
-	position: relative;
-	width: 100%;
-	margin:0;
-}
-
-.column-50{
-	position: relative;
-	width: 50%;
-	margin: 0;
-	padding: 0;
-}
-
-#landing-container .container{
-	height: 70vh;
-	color: black;
-	width:100%; 
-	margin: 0 auto; 
-}
-
-#slogan{
-	color: white;
-	font-weight: 600;
-	cursor: default;
-	margin-top: 10px;
-	margin-bottom: 10px; 
-	margin-left: 20px;
-	font-size: 40px;
-}
-
-#slogan:hover{
-	transition: all 0.3s ease 0s;
-	color: black;
-}
-
-#landing-container .container #more-page{
-	margin-top: 20px;
-}
-
-#def-ulov h3{
-	font-size: 16px;
-	padding: 20px;
-	cursor: default;
-	color: white;
-	line-height: 30px;
-}
-
-#def-ulov h3:hover{
-	transition: all 0.4s ease 0.2s;
-	color: black;
-	background-color: white;
-}
-
-#input-column{
-	display: flex;
-	flex-direction: column;
-}
-
-#input-column input{
-	margin-top: 20px;
-}
-
-input{
-	box-shadow: 5px 5px 2px rgba(0,0,0,0.1);
-	font-size: 16px;
-	font-family: Roboto;
-	border:1px solid black;
-	border-radius: 5px;
-	width: 300px;
-	height: 40px;
-}
-
-select{
-	box-shadow: 5px 5px 2px rgba(0,0,0,0.1);
-	font-size: 20px;
-	font-family: Roboto;
-	border:1px solid black;
-	border-radius: 5px;
-	width: 300px;
-	height: 40px;
-}
-
-#inner-column{
-	margin-left: 50px;
-	border:1px solid black;
-	box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
-	box-sizing: content-box;
-	width: 350px;
-
-	align-items: center;
-	padding: 30px;
-	background-color: white;
-	border-radius: 15px;
-}
-
-#inner-column section{
-	align-items:  center;
-}
-
-#inner-column input{
-	margin-top: 10px; 
-}
-
-#select-section{
-	text-align: center;	
-}
-
-#select-section select{
-	
-	margin-bottom: 5px;
-	text-align: center;
-	margin-left: 0px;
-}
-
-.question-text{
-	margin-top: 10px;
-	font-size: 16px;
-	font-weight: 600;
-}
-
-.question-text select{
-	margin-bottom: 5px;
-}
-
-.input-button{
-	font-weight: 600;
-	text-align: center;
-}
+</section>
 
 
+<!-- FOOTER -->	
 
-.option-text{
+<footer style=" font-size: 26px;font-weight: 600;padding: 50px;background-color: black;width: 100%;">
+	<div class="container">
+	<div style="display: flex;padding-left: 20px">
+		<div class="footer-links" style="list-style: none;"><a style="color: white;cursor: pointer;" href="#"> Kompaniya haqida</a></div>
+		<div class="footer-links" style="list-style: none;padding-left: 20px;"><a style="color: white;cursor: pointer;" href="#"> Hamkorlik</a></div>
+		<div class="footer-links" style="list-style: none;padding-left: 20px;"><a style="color: white;cursor: pointer;" href="#"> Xavfsizlik</a></div>
+		<div class="footer-links" style="color: white; list-style: none;padding-left: 20px; margin-left: auto;">©2020 Copyright <span style="font-family: Century Gothic"> Ulov.</span></div>
+	</div>
+	</div>
+</footer>
 
-	text-align: center; 
-}
-
-#qidirish{
-
-	display: flex;
-	text-align: center;
-	flex-direction: row;
-	margin-top: 20px;
-}
-
-#qidirish button{
-
-	margin-top: 10px;
-	margin-bottom: 10px;
-	font-size: 20px;
-	color: white;
-	width: 150px;
-	border:0.5px;
-	border-radius: 5px;
-	height: 40px;
-	background: black;
-	font-weight: 600;
-	font-family: Roboto,sans-serif;
-}
-
-#submit-button-row button {
-	color: white;
-	text-align: center;
-}
-
-/***************DRIVER-PAGE****************/
-
-#driver-header{
-	color: black;
-	cursor: default;
-	font-size: 40px;
-	font-weight: 600;
-	margin-bottom: 20px;
-}
-
-#driver-slogan{
-	cursor: default;
-	color: black;
-	margin-top: 10px;
-	font-size: 16px;
-	font-weight: 600;
-	line-height: 40px;
-	margin-bottom: 20px;
-}
-
-#driver-slogan:hover{
-	transition: all 0.3s ease 0.1s;
-	color: black;
-	background-color:white; 
-}
-
-#download-button{
-	padding: 10px; 
-	font-size: 16px;
-	font-weight: 600;
-	height: 50px;
-	color: white;
-	background-color: black;
-	border:1px solid black;
-	border-radius: 10px;
-}
-/******* FOOTER *****/
-
-.footer-links a:hover{
-	transition: all 0.3s ease 0s;
-	text-decoration: none;
-	text-decoration-style: 2px solid white; 
-}
+</body>
+</html>
