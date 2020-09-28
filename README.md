@@ -7,7 +7,7 @@
 	<title>Ulov.</title>
 	<link rel="stylesheet" type="text/css" href="portfolio-website.css">
 	<script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Ulov.com/portfolio-website/portfolio-website.css" />
     <script src="script.js"></script>
 </head>
 <body>
