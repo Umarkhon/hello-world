@@ -107,8 +107,6 @@
 			</div>
 			</div>
 		</div>
-			
-
 		<div class="column-50" style="background:url(marginalia-car-rental.png);background-repeat: no-repeat; margin-top: 50px;">
 		</div>
 	</div>
